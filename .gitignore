@@ -1,0 +1,4 @@
+__pycache__/
+./venv/
+extractors/__pycache__/
+texto.txt
