@@ -2,8 +2,8 @@
 GENERADOR DE REPORTES
 ======================
 
-Este módulo genera reportes formateados con colores
-para presentar los resultados del análisis de malware.
+Este módulo genera reportes formateados con colores bonicos 
+para presentar los resultados del análisis de malware de manera clara.
 """
 
 from colorama import Fore, Style

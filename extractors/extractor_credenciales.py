@@ -66,16 +66,13 @@ class ExtractorCredenciales:
             # Telnet (muy básico, solo busca strings comunes en data)
             if hasattr(pkt, 'telnet') and hasattr(pkt.telnet, 'data'):
                 data = str(pkt.telnet.data)
-                # Esto es muy ruidoso, mejor solo si detectamos patrones claros o lo dejamos como "Tráfico Telnet detectado"
-                # Por ahora, para no llenar de basura, lo omitiremos o seremos muy específicos.
-                # Dejaremos Telnet fuera por ahora para evitar falsos positivos masivos con datos binarios.
                 pass
 
         except Exception:
             pass
 
     def _agregar_credencial(self, protocolo, info, pkt):
-        """Agrega una credencial encontrada a la lista."""
+        """Añade una credencial encontrada a la lista."""
         ip_src = getattr(pkt.ip, 'src', 'Desconocido') if hasattr(pkt, 'ip') else 'Desconocido'
         ip_dst = getattr(pkt.ip, 'dst', 'Desconocido') if hasattr(pkt, 'ip') else 'Desconocido'
         num_paquete = getattr(pkt, 'number', 'N/A')

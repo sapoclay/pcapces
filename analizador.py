@@ -30,7 +30,7 @@ from extractors import (
 
 class AnalizadorPcap:
     """
-    Orquestador principal que coordina todos los extractores
+    Orquesta principal que coordina todos los extractores
     para analizar un archivo PCAP.
     """
     
@@ -64,7 +64,7 @@ class AnalizadorPcap:
         """
         Ejecuta el análisis completo del archivo PCAP.
         
-        Returns:
+        Deveulve:
             dict: Diccionario con todos los resultados del análisis
         """
         print("=" * 80)
@@ -154,7 +154,7 @@ class AnalizadorPcap:
         """
         Consolida los resultados de todos los extractores.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con todos los resultados consolidados
         """
         resultados = {}

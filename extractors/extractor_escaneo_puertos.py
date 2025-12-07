@@ -63,7 +63,7 @@ class ExtractorEscaneoPuertos:
         """
         Obtiene los resultados del análisis de escaneo de puertos.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con información sobre escaneos detectados
         """
         escaneos_detectados = []

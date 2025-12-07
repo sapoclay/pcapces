@@ -67,7 +67,7 @@ class ExtractorPuertosSospechosos:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con lista de conexiones a puertos sospechosos
         """
         return {

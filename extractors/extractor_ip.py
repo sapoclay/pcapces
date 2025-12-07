@@ -63,7 +63,7 @@ class ExtractorIP:
         """
         Determina la IP infectada (la IP privada más activa).
         
-        Returns:
+        Devuelve:
             str: Dirección IP del equipo infectado, o None si no se encontró
         """
         if self.contador_ip:
@@ -74,7 +74,7 @@ class ExtractorIP:
         """
         Obtiene la dirección MAC asociada a la IP infectada.
         
-        Returns:
+        Devuelve:
             list: Lista de diccionarios con MAC y paquete
         """
         ip_infectada = self.obtener_ip_infectada()
@@ -90,7 +90,7 @@ class ExtractorIP:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con la IP infectada y su MAC
         """
         ip = self.obtener_ip_infectada()

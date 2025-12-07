@@ -143,7 +143,7 @@ class ExtractorSO:
         """
         Genera CPEs (Common Platform Enumeration) basados en la información recopilada.
         
-        Returns:
+        DEvuelve:
             list: Lista de diccionarios con información de CPE
         """
         cpes = []
@@ -198,7 +198,7 @@ class ExtractorSO:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con CPEs generados
         """
         return {

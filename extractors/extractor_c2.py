@@ -52,7 +52,7 @@ class ExtractorC2:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con la lista de IPs de servidores C2 (objetos con ip y paquete)
         """
         # Convertir a lista de diccionarios para el reporteador

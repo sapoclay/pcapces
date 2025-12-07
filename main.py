@@ -1,6 +1,6 @@
 """
-ANALIZADOR DE MALWARE PCAP - PUNTO DE ENTRADA PRINCIPAL
-========================================================
+ANALIZADOR DE MALWARE PCAP - PUNTO DE ENTRADA PRINCIPAL DEL PROGRAMA
+====================================================================
 
 Este script analiza archivos .pcap para identificar:
 - Equipos infectados con malware
@@ -10,22 +10,7 @@ Este script analiza archivos .pcap para identificar:
 
 B======================================================>
 
-Proceso para crear y activar el entorno virtual:
 
-1. Crear el entorno virtual
-   python3 -m venv .venv
-
-2. Activar el entorno virtual
-   source .venv/bin/activate
-
-3. Instalar dependencias (bibliotecas necesarias)
-   pip install pyshark colorama
-
-4. Ejecutar el script
-   python main.py
-
-5. Desactivar el entorno virtual
-   deactivate
 """
 
 import os

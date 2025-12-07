@@ -60,7 +60,7 @@ class ExtractorDNS:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con la lista de dominios sospechosos (objetos con nombre y paquete)
         """
         # Convertir a lista de diccionarios para el reporteador

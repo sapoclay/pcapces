@@ -10,7 +10,7 @@ import config
 
 class ExtractorUserAgents:
     """
-    Detecta User-Agents anómalos.
+    Detecta User-Agents que suenan a cochiquera.
     """
     
     def __init__(self):
@@ -59,7 +59,7 @@ class ExtractorUserAgents:
         num_paquete = getattr(pkt, 'number', 'N/A')
         
         # Evitar duplicados exactos (mismo UA, misma IP) para no saturar
-        # Pero queremos saber si ocurre muchas veces.
+        # Queremos saber si ocurre muchas veces.
         # Por simplicidad, guardamos todo y el reporteador puede resumir o mostrar los primeros N.
         
         self.uas_sospechosos.append({

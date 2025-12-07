@@ -58,7 +58,7 @@ class ExtractorHostname:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con la lista de hostnames encontrados (objetos con nombre y paquete)
         """
         # Convertir a lista de diccionarios para el reporteador

@@ -43,7 +43,7 @@ class ExtractorDescargas:
             todos_campos = pkt.http._all_fields
             
             # Verificar URI de la petición
-            # pyshark a veces usa http.request.uri y otras http.request_uri
+            # pyshark a veces usa http.request.uri
             uri = None
             if 'http.request.uri' in todos_campos:
                 uri = str(todos_campos['http.request.uri']).lower()
@@ -147,7 +147,7 @@ class ExtractorDescargas:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuevle:
             dict: Diccionario con lista de descargas detectadas
         """
         return {

@@ -25,7 +25,7 @@ class ClasificadorMalware:
         Args:
             resultados_analisis: Diccionario con los resultados del análisis PCAP
         
-        Returns:
+        Devuelve:
             dict: Diccionario con la clasificación del malware
         """
         # Valores por defecto

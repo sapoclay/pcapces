@@ -2,7 +2,7 @@
 EXTRACTOR DE TRANSFERENCIAS DE DATOS GRANDES (EXFILTRACIÓN)
 ===========================================================
 
-Este módulo monitorea el volumen de datos transferidos entre hosts
+Este módulo monitoriza el volumen de datos transferidos entre hosts
 para detectar posible exfiltración de información o descargas masivas.
 """
 
@@ -37,7 +37,6 @@ class ExtractorTransferencias:
                 ip_dst = str(pkt.ip.dst)
                 length = int(pkt.length)
                 
-                # Ignorar tráfico local si se desea, pero a veces la exfiltración es interna primero
                 # Por ahora registramos todo y filtramos al final si es necesario
                 
                 flujo = (ip_src, ip_dst)
@@ -53,7 +52,7 @@ class ExtractorTransferencias:
         """
         Obtiene los flujos que superan el umbral definido.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con transferencias grandes detectadas
         """
         transferencias_grandes = []

@@ -126,7 +126,7 @@ class ExtractorUsuario:
         """
         Obtiene los resultados del análisis.
         
-        Returns:
+        Devuelve:
             dict: Diccionario con la lista de usuarios encontrados (objetos con nombre y paquete)
         """
         # Convertir a lista de diccionarios para el reporteador
