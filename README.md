@@ -1,5 +1,7 @@
 # PCAPCES - Analizador de tráfico de red para detección de cosas
 
+<img width="368" height="147" alt="pcapces" src="https://github.com/user-attachments/assets/db0db3a0-e6c9-43fd-be2f-1880eb007e83" />
+
 ## ¿Qué hace este programa?
 
 Este programa analiza archivos de captura de tráfico de red (archivos `.pcap`) para **detectar actividad de malagente** en un equipo. Es como un "detective digital" que examina las comunicaciones de red en busca de señales de que un equipo ha sido infectada por bichería.
